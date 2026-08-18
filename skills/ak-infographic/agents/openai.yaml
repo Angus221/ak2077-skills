@@ -1,0 +1,4 @@
+interface:
+  display_name: "AK Infographic"
+  short_description: "将复杂内容转译为适合多种生图工具的高信息密度专业信息图"
+  default_prompt: "使用 $ak-infographic 将这份内容转译为高信息密度的专业信息图。"
