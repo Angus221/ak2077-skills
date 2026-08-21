@@ -95,11 +95,11 @@ flowchart TD
 当用户没有指定信息图风格时，必须执行以下步骤：
 
 1. 先根据内容特征推荐 2–3 种适配风格，并简要说明推荐理由。
-2. 以当前 `SKILL.md` 所在目录为基准，定位技能内的相对资源 `assets/infographic-style-catalog.png`，并将其解析为绝对文件路径。
+2. 以当前 `SKILL.md` 所在目录为基准，定位技能内的相对资源 `references/infographic-style-catalog.png`，并将其解析为绝对文件路径。
 3. 使用解析后的绝对路径向用户输出 Markdown。路径包含空格时保留尖括号；不要把仓库开发机上的固定绝对路径写死到技能中：
 
    ```markdown
-   ![15 种信息图风格图鉴](<ABSOLUTE_PATH_TO_SKILL/assets/infographic-style-catalog.png>)
+   ![15 种信息图风格图鉴](<ABSOLUTE_PATH_TO_SKILL/references/infographic-style-catalog.png>)
    ```
 
 4. 请用户根据图鉴选择风格编号或名称，并确认生成张数。
