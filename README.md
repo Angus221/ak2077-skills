@@ -26,7 +26,7 @@
 
 ## 15 种信息图风格
 
-![15 种信息图风格图鉴](./skills/ak-infographic/assets/infographic-style-catalog.png)
+![15 种信息图风格图鉴](./skills/ak-infographic/references/infographic-style-catalog.png)
 
 | 编号 | 风格 | 适合内容 |
 | --- | --- | --- |
